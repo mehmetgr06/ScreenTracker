@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mehmet.screentracker.ScreenUsageStatsMenu">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/screenTabLayout"
+        app:tabMode="fixed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/screenViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+
+
+  <!--  <Button
+        android:id="@+id/anlikIstatistiklerButton"
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_shape"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text="Anlık Ekran Kullanımı İstatistikleri"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/haftalikIstatitstiklerButton"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="90dp"
+        android:background="@drawable/button_shape"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text="Haftalık Ekran Kullanımı İstatistikleri"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/akitfUygulamalarButton"
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_shape"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text="AKTİF/PASİF UYGULAMALAR"
+        android:textAllCaps="false"/> -->
+
+</LinearLayout>
